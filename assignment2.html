@@ -1,0 +1,125 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Image Links</title>
+    <style>
+        body {
+            font-family: Arial, sans-serif;
+            margin: 0;
+            padding: 0;
+            width: 100%;
+        }
+        h2{
+            text-align: center;
+        }
+        p{
+            font-size: 24px;
+        }
+        header {
+            background-color: #333;
+            color: #fff;
+            padding: 20px;
+            text-align: center;
+        }
+        header h1{
+            color: greema;
+        }
+        nav {
+            background-color: #444;
+            padding: 10px;
+            text-align: center;
+        }
+        nav ul {
+            list-style-type: none;
+            margin: 0;
+            padding: 0;
+        }
+        nav ul li {
+            display: inline;
+            margin-right: 20px;
+        }
+        nav ul li a {
+            color: #fff;
+            text-decoration: none;
+        }
+        section {
+            padding: 20px;
+        }
+        #home p {
+            font-size: medium;
+
+        }
+        #home img{
+            width: 100%;
+        }
+        footer {
+            background-color: #333;
+            color: #fff;
+            padding: 10px;
+            text-align: center;
+            position: relative;
+            bottom: 0;
+            width: 100%;
+        }
+        .gallery {
+            display: grid;
+            grid-template-columns: repeat(3, 1fr);
+            grid-gap: 20px;
+        }
+        .gallery img {
+            width: 100%;
+            height: 90%;
+        }
+        .menu{
+            display: grid;
+            grid-template-columns: repeat(3, 1fr);
+            grid-gap: 20px;
+        }
+        .menu img{
+            list-style-type: upper-roman;
+            padding: 0;
+            width: 100%;
+            height: 90%;
+        }
+        
+    </style>
+</head>
+<body>
+    <header>
+        <h1>Welcome to Image Links</h1>
+    </header>
+    <nav>
+        <ul>
+            <li><a href="#home">Home</a></li>
+            <li><a href="#gallery">Gallery</a></li>
+            <li><a href="#menu">Menu</a></li>
+        </ul>
+    </nav>
+    <section id="home">
+        <h2>Home</h2>
+        <p>Welcome to our website! We offer a variety of images linked to different topics.</p>
+        <a href="https://www.pexels.com/search/welcome%20sign/"><img src="image/istockphoto-1056445350-1024x1024.jpg" alt="Technology"></a>
+    </section>
+    <section id="gallery">
+        <h2>Gallery</h2>
+        <div class="gallery">
+            <a href="https://www.pexels.com/search/nature"><img src="image/pexels-alex-montes-1820563.jpg" alt="Nature"></a>
+            <a href="https://www.pexels.com/search/nature"><img src="image/pexels-stein-egil-liland-3408744.jpg" alt="Nature"></a>
+            <a href="https://www.pexels.com/search/nature"><img src="image/WhatsApp Image 2024-02-28 at 05.39.44.jpeg" alt="Nature"></a>
+        </div>
+    </section>
+    <section id="menu">
+        <h2>Menu</h2>
+        <ul class="menu">
+            <a href="https://www.pexels.com/search/food/"><img src="image/WhatsApp Image 2024-02-28 at 05.39.26.jpeg" alt="Food 1">fried fish</a>
+            <a href="https://www.pexels.com/search/food/"><img src="image/WhatsApp Image 2024-02-28 at 05.39.28.jpeg" alt="Food 2"> chips& meat</a>
+            <a href="https://www.pexels.com/search/food/"><img src="image/pexels-robin-stickel-70497.jpg" alt="Food 3"> Bagger</a>
+        </ul>
+    </section>
+    <footer>
+        <p>&copy; 2024 Image Links. All rights reserved.</p>
+    </footer>
+</body>
+</html>
