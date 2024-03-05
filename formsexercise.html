@@ -1,0 +1,56 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>registration form</title>
+</head>
+<body>
+    <form action="">
+        <label for="name">FName:</label>
+        <input type="text" name="name" id="name" placeholder="FName">
+        &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;
+        <label for="name">LName:</label>
+        <input type="text" name="name" id="name" placeholder="LName">
+        <br><br>
+        <label for="dob">Date of Birth:</label>
+        <input type="date" id="dob" name="dob" placeholder="MM/DD/YYYY" required>
+        <br><br>
+        <lable for="gender">Gender</lable>
+        <br>
+        <input type="radio" name="gender" id="gender" value="male">
+        <label for="male">Male</label>
+        <br>
+        <input type="radio" name="gender" id="gender" value="female">
+        <label for="female">Female</label>
+        <br><br>
+        <label for="address">Address</label>
+        <input type="text" name="address" id="address" placeholder="address">
+        <br><br>
+        <lable for="telephone">Telephone:</lable>
+        <input type="text"name="telephone"placeholder="07--------" required>
+        <br><br>
+        <lable for="email">Email:</lable>
+        <input type="email" id="email" name="email" placeholder="name@gmail.com"required>
+        <br><br>
+        <lable for="courses">Select the courses:</lable>
+        <br>
+        <select name="courses" id="courses" maxlength="4"required>
+            <option value="enter">Select here</option>
+            <option value="Web Development">Web Development</option>
+            <option value="python">Python</option>
+            <option value="database design">DataBase Design</option>
+            <option value="Enterprenuar">Enterprenuar</option>
+            <option value="dart">Dart</option>
+            <option value="Software Engineering">Software Engineering</option>
+        </select>
+        <br><br>
+        <input type="button" name="register" id="register" value="register">
+        &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;
+        <input type="button" name="register" id="register" value="cancel">
+        <br><br>
+        <br><br>
+
+    </form>
+</body>
+</html>
