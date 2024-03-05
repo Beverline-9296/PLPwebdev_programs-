@@ -1,0 +1,56 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>html forms</title>
+</head>
+<body>
+    <!--how the data will be submited-->
+   <!--get method=submit data as query parameter 248 character--> 
+  <!--post=submit data within the body>more secure>large parameter-->
+  <!--enctype="multipart/form-data"=enable you to upload file-->
+    <form action="" method="post" enctype="multipart/form-data">
+        <label for="name">name:</label>
+        <input type="text" name="name" id="name"required>
+        <br><br>
+        <label for="email">Email</label>
+        <input type="email"name="email"id="email"placeholder="name@gmail.com">
+        <br><br><br>
+        <label for="password">password</label>
+        <input type="password"id="password"name="password">
+        <!--upload= used to upload files >type attribute =file-->
+        <br><br>
+        <lable for="file">upload file</lable>
+        <br><br>
+        <!--for image file accept="image/*"-->
+        <!--for image file accept="video/*"-->
+        <input type="file" id="file" accept=".pdf">
+        <br><br>
+        <!--maxlength-for setting the maximum length> maxlength="5"-->
+        <br><input type="checkbox"id="" value="i am a student">
+        <lable for="i am a student">i am a student</lable>
+<br>    <label for="gender">Gender</label>
+        <input type="radio" name="gender"id="gender" value="male"> 
+        <lable for="male">male</lable>
+        <input type="radio" name="gender"id="gender" value="male">
+        <lable for="female">female</lable><br>
+        <br>
+        <br>
+        <input type="submit" value="save details">
+        <br><br><br>
+        <label for="car">select car model:</label>
+        <!--multiple= allow us to select many items in select -->
+        <select id="car" name="car">
+            <option value=" "></option>
+            <option value="toyota">Toyota</option>
+            <option value="mutshubishi">mutshubishi</option>
+            <option value="nazda">Mazda</option>
+        </select>
+        <br><br>
+        <textarea name="bio" id="bio" cols="30" rows="10">
+        Type in your bio.
+        </textarea>
+    </form>
+</body>
+</html>
