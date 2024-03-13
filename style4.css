@@ -1,0 +1,55 @@
+/* General Styles */
+body {
+    font-family: Arial, sans-serif;
+    margin: 6px;
+    padding: 10px;
+    width: 100%;
+
+}
+
+header {
+    background-color: #fff;
+    font-size: 19px;
+    padding: 3px;
+    color: blueviolet;
+    text-align: center;
+}
+
+section {
+    padding: 20px;
+    margin-bottom: 20px;
+}
+
+.introduction {
+    background-color: gray;
+    margin: 20px 0;
+    color: blue;
+}
+
+.skills {
+    border: 1px solid #ccc;
+    padding: 10px;
+    color:black;
+}
+
+.skills ul {
+    list-style: none;
+    
+}
+
+.skills li {
+    list-style: lower-roman;
+    margin-bottom: 5px;
+    padding: 6px;
+    color: orange;
+}
+
+.contact h2 {
+    background-color:grey ;
+    padding: 20px;
+}
+
+.contact ul  li a {
+    padding: 3px;
+    list-style: disc;
+}
